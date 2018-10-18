@@ -81,7 +81,7 @@
                 <div class="title m-b-md">
                     Pasindu Senarath
                     @foreach($tasks as $task)
-                        <li>{{$task}}</li>
+                        <li>{{$task->body}}</li>
                         @endforeach
                 </div>
 
