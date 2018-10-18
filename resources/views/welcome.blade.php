@@ -80,6 +80,9 @@
             <div class="content">
                 <div class="title m-b-md">
                     Pasindu Senarath
+                    @foreach($tasks as $task)
+                        <li>{{$task}}</li>
+                        @endforeach
                 </div>
 
                 <div class="links">
