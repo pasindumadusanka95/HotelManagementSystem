@@ -13,7 +13,8 @@
 
 Route::get('/', function () {
 
-    $tasks=DB::table('tasks')->get();
+    //$tasks=DB::table('tasks')->get();
+    $tasks= App\Task::all();
     return view('welcome',compact('tasks'));
 });
 
