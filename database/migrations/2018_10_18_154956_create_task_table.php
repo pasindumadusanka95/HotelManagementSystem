@@ -17,6 +17,7 @@ class CreateTaskTable extends Migration
             $table->increments('id');
             $table->text('body');
             $table->timestamps();
+            $table->boolean(completed)->default(false);
         });
     }
 
