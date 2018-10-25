@@ -80,6 +80,9 @@
     <div class="content">
         <div class="title m-b-md">
             About US
+            contact-
+                0716854234
+                htl@gmail.com
         </div>
 
         <div class="links">
