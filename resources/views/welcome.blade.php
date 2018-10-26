@@ -82,9 +82,8 @@
                     Pasindu Senarath
                     UCSC
                     Laravel web
-                    @foreach($tasks as $task)
-                        <li>{{$task->body}}</li>
-                        @endforeach
+
+
                 </div>
 
                 <div class="links">
