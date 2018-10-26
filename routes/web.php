@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/tasks', function () {
 
     //$tasks=DB::table('tasks')->get();
     $tasks= App\Task::all();
-    return view('welcome',compact('tasks'));
+    return view('tasks.index',compact('tasks'));
 });
 
 Route::get('/about', function () {

@@ -80,8 +80,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Pasindu Senarath
-                    UCSC
-                    Laravel web
+
 
 
                 </div>
