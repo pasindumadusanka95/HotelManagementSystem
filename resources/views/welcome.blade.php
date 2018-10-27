@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -146,5 +147,19 @@
             </p>
         </div>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAJMR2Vq5Ya7D-wTpKluUSCIMF2MD7Tfic",
+            authDomain: "learnthis-d58eb.firebaseapp.com",
+            databaseURL: "https://learnthis-d58eb.firebaseio.com",
+            projectId: "learnthis-d58eb",
+            storageBucket: "learnthis-d58eb.appspot.com",
+            messagingSenderId: "469113679294"
+        };
+        firebase.initializeApp(config);
+    </script>
     </body>
 </html>
