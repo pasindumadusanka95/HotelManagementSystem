@@ -25,16 +25,16 @@
                     <a href="about.html">About</a>
                 </li>
                 <li>
-                    <a href="plants.html">Plants</a>
+                    <a href="plants.html">Menu</a>
                 </li>
                 <li class="current">
                     <a href="gardens.html">Gardens</a>
                 </li>
                 <li>
-                    <a href="news.html">News</a>
+                    <a href="news.html">Promotions</a>
                     <ul>
                         <li>
-                            <a href="article.html">Article</a>
+                            <a href="article.html">Feedback</a>
                         </li>
                     </ul>
                 </li>
@@ -143,7 +143,7 @@
                 </div>
             </div>
             <p>
-                Garden Walkthrough &copy; 2023 | All Rights Reserved
+                PMS Production 2018 | All Rights Reserved
             </p>
         </div>
     </div>
